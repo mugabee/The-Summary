@@ -116,9 +116,14 @@
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
-    
+
 }
 
+.section__title,
+.section__subtitle{
+    text-align: center;
+
+}
 /*==================== LAYOUT ====================*/
 
 
