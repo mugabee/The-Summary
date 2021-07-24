@@ -1,4 +1,7 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
+const navMenu = document.getElementById('nav-menu'),
+      navToogle = document.getElementById('nav-toggle'),
+      navClose =
 
 
 /*===== MENU SHOW =====*/
