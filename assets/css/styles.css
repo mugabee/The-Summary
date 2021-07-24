@@ -94,6 +94,15 @@
      color: var(--title-color);
      font-weight: var(--font-semi-bold);
  }
+
+ ul{
+     list-style: none;
+ }
+
+ a{
+     text-decoration: none;
+     height: auto;
+ }
 /*==================== REUSABLE CSS CLASSES ====================*/
 
 
