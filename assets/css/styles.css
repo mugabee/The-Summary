@@ -89,6 +89,11 @@
      font-size: var(--normal-font-size);
      background-color: var(--body-color);
  }
+
+ h1,h2,h3,h4{
+     color: var(--title-color);
+     font-weight: var(--font-semi-bold);
+ }
 /*==================== REUSABLE CSS CLASSES ====================*/
 
 
