@@ -15,6 +15,11 @@ if(navToogle){
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
+if(navClose){
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+    })
+}
 
 
 /*==================== REMOVE MENU MOBILE ====================*/
