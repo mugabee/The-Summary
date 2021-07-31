@@ -391,6 +391,11 @@
     margin-left: auto;
     transition: .4s;
 }
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+
+}
 .skills__titles{
     display: flex;
     justify-content: space-between;
@@ -426,13 +431,27 @@
 .skills__react{
     width: 85%;
 }
-.skills__html{
+.skills__php{
+    width: 80%;
+}
+.skills__node{
+    width: 70%;
+}
+.skills__firebase{
     width: 90%;
 }
-.skills__html{
+.skills__python{
+    width: 55%;
+}
+.skills__figma{
     width: 90%;
 }
-
+.skills__sketch{
+    width: 85%;
+}
+.skills__photoshop{
+    width: 85%;
+}
 /*==================== QUALIFICATION ====================*/
 
 
