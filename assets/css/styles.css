@@ -452,6 +452,10 @@
 .skills__photoshop{
     width: 85%;
 }
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+}
 /*==================== QUALIFICATION ====================*/
 
 
