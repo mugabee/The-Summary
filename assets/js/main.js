@@ -37,14 +37,16 @@ const skillsContent = document.getElementsByClassName('skills__content'),
     skillsHeader = document.querySelectorAll('.skills__header')
     
 
-function toggleskills(){
-    let itemClass = this.parentNode.getElementsByClassName
+function toggleSkills(){
+    let itemClass = this.parentNode.className
 
     for(i = 0; i < skillsContent.length; i++){
-        this.parentNode.className = 'skills__content skills_open'
+        this.parentNode.className = 'skills__content skills__open'
     }
 }
-
+skillsHeader.forEach((el) => {
+    el.addEventListener('click', toggleSkills)
+})
 /*==================== QUALIFICATION TABS ====================*/
 
 
